@@ -8,7 +8,7 @@ set_random_seed(2)
 from keras.models import Sequential,Model
 from keras.layers import Input,Conv1D,BatchNormalization,MaxPooling1D,LSTM,Dense,GlobalAveragePooling1D,AveragePooling1D  
 from keras import optimizers
-from keras.callbacks import ModelCheckpoint,ReduceLROnPlateau,EarlyStopping,Callback
+from keras.callbacks import ModelCheckpoint,EarlyStopping,Callback
 import argparse
 import numpy as np
 import keras.backend as K
@@ -86,7 +86,6 @@ def conflictNet(input_shape):
         
 def train(model, x_tr, y_tr, x_val, y_val, args):
 
-        reduce_lr = ReduceLROnPlateau(monitor='val_pearson_cc', factor=0.2, patience=3, mode='max', min_lr=0.001,verbose=1)        
         es = EarlyStopping(monitor='val_pearson_cc',patience=10,mode='max',restore_best_weights=True) # regression
         mc = ModelCheckpoint('best_model.h5', monitor='val_pearson_cc', mode='max', verbose=1, save_best_only=True) # regression
         history = model.fit(x_tr,y_tr,batch_size=args.batch_size,epochs=args.num_epochs,validation_data=(x_val,y_val),callbacks=[mc,es])
