@@ -66,16 +66,16 @@ def conflictNet(input_shape):
         x = AveragePooling1D(pool_size=4)(x)
 
         #LSTM1
-	      x = LSTM(units=128,activation='tanh',return_sequences=True)(x)
+	x = LSTM(units=128,activation='tanh',return_sequences=True)(x)
 
         # Self Attention
         x = SeqSelfAttention(attention_activation='tanh')(x)
 
         #LSTM2
-	      x = LSTM(units=64,activation='tanh',return_sequences=False)(x)
+	x = LSTM(units=64,activation='tanh',return_sequences=False)(x)
 
         #Dense
-	      y = Dense(units=1,use_bias=True)(x) # regression
+	y = Dense(units=1,use_bias=True)(x) # regression
         
         model = Model(inputs=inp,outputs=y)
 
