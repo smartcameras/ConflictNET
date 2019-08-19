@@ -47,7 +47,7 @@ def saveData(path):
         return x_data,y_data
 
 def save_tr():
-	      x,y,y1 = saveData(train_path)
+	x,y,y1 = saveData(train_path)
         np.save('x_train.npy',x)
         np.save('y_train.npy',y)
         
@@ -67,7 +67,7 @@ def load_test():
         return x,y        
 
 def load_tr():
-	      x = np.load('x_train.npy')
+	x = np.load('x_train.npy')
         y = np.load('y_train.npy')        
         return x,y        
 
