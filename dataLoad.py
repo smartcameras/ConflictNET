@@ -1,3 +1,7 @@
+# Prepare SSPNet Conflict Corpus data
+# Author: Vandana Rajan
+# Email: v.rajan@qmul.ac.uk
+
 import librosa
 import os
 import numpy as np
