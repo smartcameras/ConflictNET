@@ -1,3 +1,7 @@
+# CNN-LSTM with attention for conflict intensity estimation
+# Author: Vandana Rajan
+# Email: v.rajan@qmul.ac.uk
+
 # seed initialization for reproducible results
 from numpy.random import seed
 seed(1)
