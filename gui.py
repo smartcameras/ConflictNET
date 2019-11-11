@@ -65,5 +65,6 @@ while True:
 		print('Sample ID:',s_id)
 		sig = x_tr[s_id]
 		sig = np.reshape(sig,(240000))
+		#Getting an error using 8k with sd [Error: PaAlsaStreamComponent_BeginPolling: Assertion `ret == self->nfds' failed. Aborted (core dumped)]. So using 16k for playback
 		aud = librosa.resample(sig,8000,16000)
 		sd.play(aud,16000,blocking=True)
