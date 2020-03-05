@@ -10,3 +10,16 @@ Paper -
 Rajan, Vandana, Alessio Brutti, and Andrea Cavallaro. "ConflictNET: End-to-End Learning for Speech-based Conflict Intensity Estimation." IEEE Signal Processing Letters 26.11 (2019): 1668-1672.
 (https://ieeexplore.ieee.org/document/8850055)
 
+# Procedure
+
+1. Download the dataset from (http://www.dcs.gla.ac.uk/vincia/?p=270)
+
+2. Create train, val and test split according to the following paper
+
+Schuller, Björn, et al. "The INTERSPEECH 2013 computational paralinguistics challenge: Social signals, conflict, emotion, autism." Proceedings INTERSPEECH 2013, 14th Annual Conference of the International Speech Communication Association, Lyon, France. 2013.
+
+3. Change lines 10,11 and 12 in 'dataLoad.py' by providing the train, val and test paths in your computer.
+
+4. Run 'conflict_net.py'
+
+
