@@ -21,3 +21,7 @@ Schuller, Björn, et al. "The INTERSPEECH 2013 computational paralinguistics cha
 3. Change lines 10,11 and 12 in 'dataLoad.py' by providing the train, val and test paths in your computer.
 
 4. Run 'conflict_net.py'
+
+# Demo using a Greek political debate (from CONFER dataset)
+
+[![ConflictNet Demo](https://img.youtube.com/vi/6AH-ITHsQbw/0.jpg)](https://www.youtube.com/watch?v=6AH-ITHsQbw)
