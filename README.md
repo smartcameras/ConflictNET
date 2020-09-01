@@ -25,3 +25,5 @@ Schuller, Björn, et al. "The INTERSPEECH 2013 computational paralinguistics cha
 # Demo using a Greek political debate (from CONFER dataset)
 
 [![ConflictNet Demo](https://img.youtube.com/vi/6AH-ITHsQbw/0.jpg)](https://www.youtube.com/watch?v=6AH-ITHsQbw)
+
+CONFER dataset: https://ibug.doc.ic.ac.uk/resources/confer/
