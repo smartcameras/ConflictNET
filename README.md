@@ -10,6 +10,8 @@ Paper -
 Rajan, Vandana, Alessio Brutti, and Andrea Cavallaro. "ConflictNET: End-to-End Learning for Speech-based Conflict Intensity Estimation." IEEE Signal Processing Letters 26.11 (2019): 1668-1672.
 (https://ieeexplore.ieee.org/document/8850055)
 
+![True versus Predicted Conflict Values](https://github.com/smartcameras/ConflictNET/blob/master/conflictnet.png)
+
 # Procedure
 
 1. Download the dataset from (http://www.dcs.gla.ac.uk/vincia/?p=270)
