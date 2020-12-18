@@ -14,7 +14,7 @@ Rajan, Vandana, Alessio Brutti, and Andrea Cavallaro. "ConflictNET: End-to-End L
 
 # Procedure
 
-1. Download the dataset from (http://www.dcs.gla.ac.uk/vincia/?p=270)
+1. Download the dataset from (http://www.dcs.gla.ac.uk/~vincia/dataconflict/)
 
 2. Create train, val and test split according to the following paper
 
