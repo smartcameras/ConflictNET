@@ -7,6 +7,11 @@ import os
 import numpy as np
 import pandas as pd
 
+# Interspeech 2013 challenge data partition: 
+# All broad-casts with the female moderator (speaker # 50) were assigned to the training set.
+# The development set consists of all broad-casts moderated by the (male) speaker # 153,
+# and the test set comprises the rest (male moderators).
+
 train_path = '/data/scratch/eex608/conflict/audiodata/train'
 val_path = '/data/scratch/eex608/conflict/audiodata/val'
 test_path = '/data/scratch/eex608/conflict/audiodata/test'
