@@ -40,7 +40,7 @@ mkl-service==2.3.0
 mock==2.0.0
 more-itertools==5.0.0
 numba==0.46.0
-numpy==1.16.5
+numpy==1.22.0
 opt-einsum==2.3.2
 packaging==19.2
 pandas==0.24.2
