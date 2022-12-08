@@ -6,7 +6,7 @@ audioread==2.1.8
 backports-abc==0.5
 backports.functools-lru-cache==1.6.1
 backports.weakref==1.0.post1
-certifi==2019.9.11
+certifi==2022.12.7
 cffi==1.13.2
 configparser==4.0.2
 contextlib2==0.6.0.post1
